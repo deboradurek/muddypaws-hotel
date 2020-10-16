@@ -1,0 +1,313 @@
+/*************** TAG SELECTOR ***************/
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+/*************** SECTIONS SELECTOR ***************/
+
+/* Title Section */
+
+#title {
+  background-color: #c25f3f;
+  color: #fff;
+}
+
+/* .nav-brand {
+  font-family: "Cardo", serif;
+} */
+
+.nav-option {
+  font-size: 1.3rem;
+  font-weight: 200;
+  padding: 0 40px;
+}
+
+.title-ctn {
+  margin: 170px auto 40px;
+  text-align: center;
+  position: relative;
+}
+
+.title-hotel {
+  font-family: "Cardo", serif;
+  font-size: 5.5rem;
+  font-weight: 600;
+  letter-spacing: 1.2rem;
+  padding-bottom: 60px;
+}
+
+.end-spacing {
+  letter-spacing: normal;
+}
+
+.title-text {
+  color: #e0a794;
+  font-weight: 300;
+  padding: 0 12% 40px;
+}
+
+.paw-icon {
+  color: #c96d51;
+  font-size: 13rem;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 60px;
+  bottom: 30px;
+}
+
+.dalmation-ctn {
+  background-image: url(../images/dalmatian.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 65%;
+  height: 100vh;
+}
+
+/* Features Section */
+
+#features {
+  background-color: #fff;
+  padding: 10% 3%;
+  color: #532a1d;
+}
+
+/* .feature-section{
+
+} */
+
+.feature-box {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.features-images {
+  width: 90%;
+  padding-bottom: 20px;
+}
+
+.feature-title {
+  font-size: 2.3rem;
+  padding: 0 40px;
+}
+
+.feature-text {
+  padding: 10px 12%;
+}
+
+/* Testimonial Section */
+
+#testimonial {
+  color: #fff;
+  padding: 70px 0;
+}
+
+.testimonial {
+  background-color: #c25f3f;
+  background-image: url(../images/testimonial-background.png);
+  background-size: cover;
+}
+
+.testimonial-frame-ctn {
+  background-image: url(../images/testimonial-frame.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 65%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-title {
+  font-family: "Cardo", serif;
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1.2rem;
+}
+.carousel-item {
+  padding: 0 25%;
+  text-align: center;
+}
+
+.carousel-button {
+  margin: auto 55px;
+}
+
+/* .testimonial-heading {
+  padding-bottom: 15px;
+} */
+
+.testimonial-text {
+  padding: 10px 0 15px;
+}
+
+.testimonial-who {
+  font-size: 1.1rem;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  margin-right: 10px;
+  width: 13%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  background-color: #fff;
+  color: #532a1d;
+  padding: 70px 100px;
+  text-align: center;
+}
+
+.pricing-all-text {
+  padding-bottom: 50px;
+}
+
+.pricing-title {
+  font-family: "Cardo", serif;
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 1.2rem;
+}
+
+.pricing-text {
+  color: #532a1d69;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.card-column {
+  padding: 20px 30px;
+}
+.card-box {
+  border-color: #c0deea;
+  line-height: 2;
+}
+
+.length-stay {
+  font-weight: 200;
+  background-color: #c0deea25;
+}
+
+.card-bottom-box {
+  padding: 5%;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+.text-mute {
+  color: #532a1d69;
+}
+
+.button-pricing {
+  background-color: #c25f3f;
+  color: #fff;
+}
+
+.button-pricing:hover {
+  background-color: #e48d71;
+  color: #fff;
+}
+
+/* Contact Section */
+
+#contact {
+  background-color: #fff;
+  height: 800px;
+  padding-top: 90px;
+  color: #532a1d;
+}
+
+.contact {
+  background-image: url(../images/seal.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding-left: 80px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-row {
+  margin: 0;
+}
+
+.contact-details {
+  text-align: left;
+  position: relative;
+}
+
+.stay-title {
+  font-family: "Cardo", serif;
+  font-size: 5.5rem;
+  font-weight: 600;
+  letter-spacing: 1.2rem;
+  padding-bottom: 50px;
+}
+
+.contact-info-line {
+  padding-bottom: 25px;
+}
+
+.email {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #532a1d;
+}
+
+.email:hover {
+  color: #c25f3f;
+  text-decoration: none;
+}
+
+.brown-line {
+  position: absolute;
+  left: 215px;
+  bottom: -115px;
+  width: 25%;
+}
+
+.footer {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-icons {
+  display: flex;
+  align-self: center;
+  position: absolute;
+  bottom: 65px;
+}
+
+.icon {
+  margin: 0 10px;
+}
+
+.copyright {
+  font-size: 1rem;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-self: center;
+  margin-bottom: 5px;
+}
+
+.paw-icon-footer {
+  color: #c25f3f;
+  position: absolute;
+  left: 275px;
+  bottom: -75px;
+  transform: rotate(-20deg);
+  font-size: 3rem;
+}

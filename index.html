@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PawHotel</title>
+
+    <!-- Bootstrap Scripts -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Josefin+Sans:wght@100;200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Title Section -->
+
+    <section id="title">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand nav-brand" href="#">PAWHOTEL</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item nav-option">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item nav-option">
+                <a class="nav-link" href="#">Testimonials</a>
+              </li>
+              <li class="nav-item nav-option">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item nav-option">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="row">
+          <div class="col-lg-6 title-ctn">
+            <h1 class="title-hotel">
+              PAWHOTE<span class="end-spacing">L</span>
+            </h1>
+
+            <h3 class="title-text">
+              The best trips are the ones you take your best friend with you!
+            </h3>
+            <span class="fas fa-paw paw-icon"></span>
+          </div>
+          <div class="col-lg-6 dalmation-ctn"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+
+    <section id="features">
+      <div class="container-fluid feature-section">
+        <div class="row">
+          <div class="col-lg-4 feature-box">
+            <img
+              class="features-images"
+              src="images/cat-sleep.png"
+              alt="cat-sleep-img"
+            />
+            <h2 class="feature-title">Sleep well</h2>
+            <p class="feature-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="col-lg-4 feature-box">
+            <img
+              class="features-images"
+              src="images/dog-water.png"
+              alt="dog-water-img"
+            />
+            <h2 class="feature-title">Explore</h2>
+            <p class="feature-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="col-lg-4 feature-box">
+            <img
+              class="features-images"
+              src="images/ducks.png"
+              alt="ducks-img"
+            />
+            <h2 class="feature-title">Make new friends</h2>
+            <p class="feature-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+
+    <section id="testimonial" class="testimonial">
+      <h1 class="testimonial-title">
+        TESTIMONIAL<span class="end-spacing">S</span>
+      </h1>
+      <div id="carousel-testimonial" class="carousel slide" data-ride="false">
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carousel-testimonial"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carousel-testimonial" data-slide-to="1"></li>
+          <li data-target="#carousel-testimonial" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner testimonial-frame-ctn">
+          <div class="carousel-item active">
+            <h2>Wonderful Experience</h2>
+            <p class="testimonial-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna
+              et pharetra pharetra massa massa ultricies.
+            </p>
+            <img
+              class="testimonial-img"
+              src="images/charlie-face.png"
+              alt="charlie-img"
+            />
+            <em class="testimonial-who">Charlie, from Canada</em>
+          </div>
+
+          <div class="carousel-item">
+            <h2>Amazing Days and Nights</h2>
+            <p class="testimonial-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna
+              et pharetra pharetra massa massa ultricies. Urna et pharetra
+              pharetra massa massa ultricies.
+            </p>
+            <img
+              class="testimonial-img"
+              src="images/christopher-face.png"
+              alt="christopher-img"
+            />
+            <em class="testimonial-who">Christopher, from Switzerland</em>
+          </div>
+
+          <div class="carousel-item">
+            <h2>Simply The Best</h2>
+            <p class="testimonial-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt aliqua. Urna et pharetra pharetra massa
+              massa ultricies.
+            </p>
+            <img
+              class="testimonial-img"
+              src="images/nicole-face.png"
+              alt="nicole-img"
+            />
+            <em class="testimonial-who">Nicole, from Australia</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev carousel-button"
+          href="#carousel-testimonial"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next carousel-button"
+          href="#carousel-testimonial"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+
+    <section id="pricing">
+      <div class="pricing-all-text">
+        <h1 class="pricing-title">OUR PACKAGES</h1>
+        <p class="pricing-text">
+          Spend the days and nights you and your pet deserve.
+        </p>
+      </div>
+      <div class="row">
+        <div class="card-column col-lg-4 col-md-6">
+          <div class="card card-box">
+            <div class="card-header length-stay">
+              <h2>Monthly</h2>
+            </div>
+            <div class="card-body card-bottom-box">
+              <h3 class="card-title price">
+                from $40 <small class="text-mute">/ day</small>
+              </h3>
+              <ul class="list-unstyled">
+                <li>Min stay: 30 days</li>
+                <li>Premium breakfast</li>
+                <li>Unlimited check-in hours</li>
+                <li>4 Full grooming sections included</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block button-pricing">
+                Choose this offer
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-column col-lg-4 col-md-6">
+          <div class="card card-box">
+            <div class="card-header length-stay">
+              <h2>Weekly</h2>
+            </div>
+            <div class="card-body card-bottom-box">
+              <h3 class="card-title price">
+                from $60 <small class="text-mute">/ day</small>
+              </h3>
+              <ul class="list-unstyled">
+                <li>Min stay: 7 days</li>
+                <li>Special breakfast</li>
+                <li>Special check-in hours</li>
+                <li>1 Basic grooming section included</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block button-pricing">
+                Choose this offer
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-column col-lg-4">
+          <div class="card card-box">
+            <div class="card-header length-stay">
+              <h2>Nightly</h2>
+            </div>
+            <div class="card-body card-bottom-box">
+              <h3 class="card-title price">
+                from $80 <small class="text-mute">/ day</small>
+              </h3>
+              <ul class="list-unstyled">
+                <li>Min stay: 1 day</li>
+                <li>Standard breakfast</li>
+                <li>Standard check-in hours</li>
+                <li>Grooming sections for a small fee</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block button-pricing">
+                Choose this offer
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="contact">
+      <div class="row box-row">
+        <div class="contact-details col-md-6">
+          <h1 class="stay-title">STAY</h1>
+          <div class="contact-info-line">
+            <h4>Address</h4>
+            <p>00 Rue d'Nowhere . 82734 . City . Country</p>
+          </div>
+          <div class="contact-info-line">
+            <h4>Phone</h4>
+            <p>+1 555 000-5555</p>
+            <p>+1 000 555-1234</p>
+          </div>
+          <div class="contact-info-line">
+            <h4>Email</h4>
+            <a class="email" href="">contact@pawhotel.com</a>
+          </div>
+          <span class="fas fa-paw paw-icon-footer"></span>
+          <img class="brown-line" src="images/line-curve-brown.png" alt="" />
+        </div>
+        <div class="col-md-6"></div>
+      </div>
+      <div class="footer">
+        <div class="social-media-icons">
+          <span class="fab fa-facebook-square icon"></span>
+          <span class="fab fa-instagram-square icon"></span>
+          <span class="fab fa-twitter-square icon"></span>
+        </div>
+        <div class="copyright">
+          <p>© Copyright 2020 PAWHOTEL</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
