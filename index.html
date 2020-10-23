@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PawHotel</title>
+    <title>Muddy Paws Hotel</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
     <!-- Bootstrap Scripts -->
     <link
@@ -23,7 +25,7 @@
 
     <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Josefin+Sans:wght@100;200;300;400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Rancho&display=swap"
       rel="stylesheet"
     />
 
@@ -52,11 +54,11 @@
     <!-- Title Section -->
 
     <section id="title">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand nav-brand" href="#">PAWHOTEL</a>
+      <div class="container-fluid title-container">
+        <nav class="navbar navbar-expand-lg navigation-bar">
+          <a class="navbar-brand nav-brand" href="#">MuddyPaws Hotel</a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler custom-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNav"
@@ -69,16 +71,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item nav-option">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#features">Features</a>
               </li>
               <li class="nav-item nav-option">
-                <a class="nav-link" href="#">Testimonials</a>
+                <a class="nav-link" href="#testimonial">Testimonials</a>
               </li>
               <li class="nav-item nav-option">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
               </li>
               <li class="nav-item nav-option">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -86,11 +88,12 @@
         <div class="row">
           <div class="col-lg-6 title-ctn">
             <h1 class="title-hotel">
-              PAWHOTE<span class="end-spacing">L</span>
+              MuddyPaws Hote<span class="end-spacing">l</span>
             </h1>
 
             <h3 class="title-text">
-              The best trips are the ones you take your best friend with you!
+              Because the best trips are those you can take your BEST FRIEND
+              with you!
             </h3>
             <span class="fas fa-paw paw-icon"></span>
           </div>
@@ -181,8 +184,7 @@
             <p class="testimonial-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna
-              et pharetra pharetra massa massa ultricies. Urna et pharetra
-              pharetra massa massa ultricies.
+              et pharetra pharetra massa massa ultricies.
             </p>
             <img
               class="testimonial-img"
@@ -230,7 +232,7 @@
 
     <section id="pricing">
       <div class="pricing-all-text">
-        <h1 class="pricing-title">OUR PACKAGES</h1>
+        <h1>OUR PACKAGES</h1>
         <p class="pricing-text">
           Spend the days and nights you and your pet deserve.
         </p>
@@ -308,7 +310,7 @@
 
     <section id="contact" class="contact">
       <div class="row box-row">
-        <div class="contact-details col-md-6">
+        <div class="contact-details col-sm-6">
           <h1 class="stay-title">STAY</h1>
           <div class="contact-info-line">
             <h4>Address</h4>
@@ -321,13 +323,15 @@
           </div>
           <div class="contact-info-line">
             <h4>Email</h4>
-            <a class="email" href="">contact@pawhotel.com</a>
+            <span class="far fa-envelope envelope-icon"></span>
+            <a class="email" href="">contact@muddypaws.com</a>
           </div>
-          <span class="fas fa-paw paw-icon-footer"></span>
-          <img class="brown-line" src="images/line-curve-brown.png" alt="" />
+          <div class="col-sm-6"></div>
         </div>
-        <div class="col-md-6"></div>
       </div>
+
+      <img class="paw-line" src="images/paw-line.png" alt="paw-line-img" />
+
       <div class="footer">
         <div class="social-media-icons">
           <span class="fab fa-facebook-square icon"></span>
@@ -335,7 +339,7 @@
           <span class="fab fa-twitter-square icon"></span>
         </div>
         <div class="copyright">
-          <p>© Copyright 2020 PAWHOTEL</p>
+          <p>© Copyright 2020 MuddyPaws</p>
         </div>
       </div>
     </section>

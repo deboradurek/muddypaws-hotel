@@ -2,8 +2,24 @@
 
 body {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.3rem;
+  font-size: clamp(16px, 4vw, 21px);
   font-weight: 300;
+}
+
+h1 {
+  font-family: "Rancho", cursive;
+  font-size: clamp(45px, 10vw, 250px);
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.5rem;
+}
+
+h2 {
+  font-size: clamp(30px, 7vw, 48px);
+}
+
+h3 {
+  font-size: clamp(25px, 7vw, 40px);
 }
 
 /*************** SECTIONS SELECTOR ***************/
@@ -15,28 +31,65 @@ body {
   color: #fff;
 }
 
-/* .nav-brand {
-  font-family: "Cardo", serif;
-} */
+.title-container {
+  position: relative;
+}
+
+.navigation-bar {
+  background-color: rgba(194, 95, 63, 0.6);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 0;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(224, 167, 148, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgba(224, 167, 148, 0.5);
+  margin: 20px 20px;
+}
+
+.nav-brand {
+  color: #fff;
+  margin: 0 70px 0 30px;
+  font-family: "Rancho", cursive;
+}
+
+.nav-brand:hover {
+  color: #e0a794;
+}
 
 .nav-option {
   font-size: 1.3rem;
   font-weight: 200;
-  padding: 0 40px;
+  margin: auto 45px;
+}
+
+.navbar-nav li a {
+  color: #fff;
+  padding: 10px 5px;
+  transition: 0.3s;
+}
+
+.navbar-nav li a:hover {
+  background-color: #c25f3f;
 }
 
 .title-ctn {
-  margin: 170px auto 40px;
   text-align: center;
   position: relative;
 }
 
 .title-hotel {
-  font-family: "Cardo", serif;
-  font-size: 5.5rem;
-  font-weight: 600;
-  letter-spacing: 1.2rem;
-  padding-bottom: 60px;
+  font-size: clamp(65px, 10vw, 250px);
+  margin: 120px 0 50px;
+  line-height: 1.1;
+  letter-spacing: 0rem;
 }
 
 .end-spacing {
@@ -45,17 +98,22 @@ body {
 
 .title-text {
   color: #e0a794;
+  font-size: clamp(16px, 3vw, 25px);
   font-weight: 300;
-  padding: 0 12% 40px;
+  padding: 0 12%;
 }
 
 .paw-icon {
   color: #c96d51;
-  font-size: 13rem;
+  font-size: 7rem;
   transform: rotate(25deg);
   position: absolute;
-  left: 60px;
+  left: 30px;
   bottom: 30px;
+}
+
+.paw-icon:hover {
+  color: #d67a5d;
 }
 
 .dalmation-ctn {
@@ -64,6 +122,7 @@ body {
   background-size: cover;
   background-position: center 65%;
   height: 100vh;
+  max-height: 1000px;
 }
 
 /* Features Section */
@@ -74,10 +133,6 @@ body {
   color: #532a1d;
 }
 
-/* .feature-section{
-
-} */
-
 .feature-box {
   text-align: center;
   padding-bottom: 20px;
@@ -85,11 +140,12 @@ body {
 
 .features-images {
   width: 90%;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .feature-title {
-  font-size: 2.3rem;
+  font-family: "Rancho", cursive;
+  font-size: clamp(35px, 13vw, 48px);
   padding: 0 40px;
 }
 
@@ -115,18 +171,15 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 65%;
-  height: 500px;
+  height: 450px;
   display: flex;
   align-items: center;
 }
 
 .testimonial-title {
-  font-family: "Cardo", serif;
-  font-size: 4rem;
-  font-weight: 600;
-  text-align: center;
-  letter-spacing: 1.2rem;
+  padding-bottom: 20px;
 }
+
 .carousel-item {
   padding: 0 25%;
   text-align: center;
@@ -135,10 +188,6 @@ body {
 .carousel-button {
   margin: auto 55px;
 }
-
-/* .testimonial-heading {
-  padding-bottom: 15px;
-} */
 
 .testimonial-text {
   padding: 10px 0 15px;
@@ -159,7 +208,7 @@ body {
 #pricing {
   background-color: #fff;
   color: #532a1d;
-  padding: 70px 100px;
+  padding: 70px 50px;
   text-align: center;
 }
 
@@ -167,16 +216,8 @@ body {
   padding-bottom: 50px;
 }
 
-.pricing-title {
-  font-family: "Cardo", serif;
-  font-size: 4rem;
-  font-weight: 600;
-  letter-spacing: 1.2rem;
-}
-
 .pricing-text {
   color: #532a1d69;
-  font-size: 1.3rem;
   font-weight: 300;
 }
 
@@ -198,7 +239,6 @@ body {
 }
 
 .price {
-  font-size: 2.5rem;
   font-weight: 500;
   padding: 20px 0;
 }
@@ -222,7 +262,7 @@ body {
 #contact {
   background-color: #fff;
   height: 800px;
-  padding-top: 90px;
+  padding-top: 50px;
   color: #532a1d;
 }
 
@@ -238,6 +278,7 @@ body {
 }
 
 .box-row {
+  position: relative;
   margin: 0;
 }
 
@@ -247,10 +288,6 @@ body {
 }
 
 .stay-title {
-  font-family: "Cardo", serif;
-  font-size: 5.5rem;
-  font-weight: 600;
-  letter-spacing: 1.2rem;
   padding-bottom: 50px;
 }
 
@@ -258,11 +295,20 @@ body {
   padding-bottom: 25px;
 }
 
+.envelope-icon {
+  font-size: 2rem;
+}
+
+.envelope-icon:hover {
+  color: #c25f3f;
+}
+
 .email {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.3rem;
   font-weight: 300;
   color: #532a1d;
+  vertical-align: top;
 }
 
 .email:hover {
@@ -270,17 +316,21 @@ body {
   text-decoration: none;
 }
 
-.brown-line {
+.paw-line {
   position: absolute;
-  left: 215px;
-  bottom: -115px;
-  width: 25%;
+  left: 180px;
+  bottom: 45px;
+  width: 10%;
 }
 
 .footer {
   color: #fff;
   display: flex;
   flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .social-media-icons {
@@ -303,11 +353,74 @@ body {
   margin-bottom: 5px;
 }
 
-.paw-icon-footer {
-  color: #c25f3f;
-  position: absolute;
-  left: 275px;
-  bottom: -75px;
-  transform: rotate(-20deg);
-  font-size: 3rem;
+/*************** @ MEDIA ***************/
+
+@media (max-width: 992px) {
+  .title-hotel {
+    margin: 230px 0 60px;
+  }
+
+  .title-text {
+    padding: 0 12% 180px;
+  }
+
+  .dalmation-ctn {
+    background-position: center 50%;
+    max-height: 800px;
+  }
+
+  .testimonial-frame-ctn {
+    background-image: none;
+  }
+
+  .carousel-item {
+    padding: 0 15%;
+  }
+
+  .carousel-button {
+    margin: auto;
+  }
+
+  #contact {
+    height: 700px;
+    padding: 70px 20px 0 20px;
+  }
+
+  .email {
+    display: none;
+  }
+
+  .stay-title {
+    text-align: left;
+  }
+
+  .paw-line {
+    left: 120px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dalmation-ctn {
+    background-position: center 40%;
+    max-height: 500px;
+  }
+
+  .paw-line {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .dalmation-ctn {
+    background-position: center 70%;
+    max-height: 400px;
+  }
+
+  .pricing-all-text {
+    padding-bottom: 20px;
+  }
+
+  #contact {
+    padding: 70px 45% 0 20px;
+  }
 }
